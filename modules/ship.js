@@ -3,6 +3,7 @@ class Ship {
     constructor(length){
         this.length = length;
         this.hitCount = 0;
+        this.coordinates = [];
     }
 
     hit(){
@@ -16,4 +17,4 @@ class Ship {
     }
 }
 
-module.exports = Ship;
+export default Ship;
